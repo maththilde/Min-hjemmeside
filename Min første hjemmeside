@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Min hjemmeside</title>
+    <link rel="stylesheet" href="/assets/css/style.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="/">Forside</a>
+      <a href="#about-me">Om mig</a>
+      <a href="">Adresse</a>
+    </nav>
+    <section id="hero">
+      <h1>Overskrift med <span>lilla</span> tekst</h1>
+    </section>
+    <main id="about-me">
+      <article>
+        <h2>Om mig</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta
+          sapiente possimus molestias, quia nulla inventore placeat rem
+          voluptatibus doloribus ad incidunt, architecto corporis, harum
+          voluptatum sint. Laborum consectetur quaerat ipsa fuga delectus
+          laboriosam nostrum excepturi eos sunt id aliquam veniam omnis,
+          obcaecati recusandae aut non provident corrupti veritatis sit beatae
+          cumque! Cumque, dolores maiores a modi laudantium accusamus sit
+          quisquam quas veritatis dolore neque, quidem voluptates libero,
+          assumenda doloribus cupiditate laboriosam sunt nesciunt harum dolorum
+          sapiente optio! Quos rem mollitia, vero nobis voluptatibus magnam
+          distinctio enim dolores, accusantium cupiditate incidunt saepe tempore
+          ratione, quidem laudantium corporis facere dignissimos. Beatae,
+          impedit obcaecati eaque perferendis enim molestias molestiae dolore
+          harum. Dolores amet quis commodi sed similique iure neque excepturi,
+          assumenda blanditiis quam, vitae autem ipsum, eos libero ipsa quaerat
+          doloribus totam repellendus fuga nostrum? Ab quos nulla rem pariatur
+          optio vitae eveniet! Optio placeat commodi, eveniet laboriosam non
+          accusamus porro qui repellendus!
+        </p>
+        <img src="assets/img/dog.jpeg" alt="" / alt="Billede af sød hund"
+        width="50%" height="500" />
+        <video
+          src="assets/video/ocean.mp4"
+          controls
+          autoplay
+          muted
+          loop
+          width="300px"
+          height="500"
+        ></video>
+
+        <h3>Min hobby</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
+          magnam quasi quos iusto officia. Explicabo temporibus asperiores,
+          expedita dignissimos dolorum rerum possimus, architecto officia
+          consequuntur, qui dolore illo optio ab? Sint corporis laborum
+          reiciendis repellendus soluta officia, dolores nobis? Veritatis illum
+          accusamus aliquid ipsa, culpa amet consequatur alias corporis cumque
+          voluptate ratione reprehenderit hic sequi tempora expedita quos
+          repellat nostrum odio provident in vero excepturi accusantium! A
+          dolorem similique atque? Pariatur qui quod magnam aspernatur! Ipsa
+          ipsam ex veniam consequatur rerum dolorem repellat ratione fuga aut
+          molestiae! Quasi optio facere accusamus officiis, voluptatem molestiae
+          distinctio recusandae dolores quod earum. Nobis, ab, exercitationem
+          ratione veritatis iure in molestiae excepturi quam expedita nostrum
+          delectus, temporibus eaque aspernatur fuga quisquam error dolore
+          dignissimos mollitia perferendis esse nulla asperiores accusamus
+          neque! Delectus deleniti nihil, unde itaque blanditiis porro quos quas
+          velit laudantium similique officia nesciunt dolorum debitis
+          repellendus beatae doloremque. Ab quod sapiente ratione.
+        </p>
+      </article>
+    </main>
+    <footer>
+      <address>
+        Mathilde S. Iversen <br />
+        Vranderupvej 90 <br />
+        6000 Kolding <br />
+
+        mobil: <a href="tel: +4500000000">00000000</a> <br />
+        mail:
+        <a href="mailto:maive01@mail.hansenberg.dk"
+          >maive01@mail.hansenberg.dk</a
+        >
+        <br />
+      </address>
+    </footer>
+    <h2 class="second-color">Overskrift 2</h2>
+    <h3>Overskrift 3</h3>
+    <h4 class="second-color">Overskrift 4</h4>
+    <h5>Overskrift 5</h5>
+    <h6 class="second-color">Overskrift 6</h6>
+    <p>
+      Her <u>kommer</u>
+      <strong
+        ><u><i>lidt</i></u></strong
+      >
+      <strong>tekst</strong>.
+    </p>
+    <p id="last-paragraph">blah <strike>blah</strike> blah</p>
+    <img
+      src="/assets/img/dog.jpeg"
+      alt="Billede af sød hund"
+      width="50%"
+      height="500"
+    />
+    <video
+      src="assets/video/ocean.mp4"
+      controls
+      autoplay
+      muted
+      loop
+      width="300px"
+      height="500"
+    ></video>
+    <audio src="assets/audio/peaceful.mp3" controls></audio>
+    <ul type="square">
+      <li>
+        Mælk
+        <ul>
+          <li>1 x Sød</li>
+          <li>2 x Let</li>
+        </ul>
+      </li>
+      <li>Brød</li>
+      <li>Cola</li>
+      <ul>
+        <li>6 x Pepsi</li>
+        <li>2 x Coca Cola</li>
+      </ul>
+      <li>Majschips</li>
+    </ul>
+    <ol type="1" start="100" reversed>
+      <li>
+        Mælk
+        <ul>
+          <li>1 x Sød</li>
+          <li>2 x Let</li>
+        </ul>
+      </li>
+      <li>Brød</li>
+      <li value="50">Cola</li>
+      <ul>
+        <li>6 x Pepsi</li>
+        <li>2 x Coca Cola</li>
+      </ul>
+      <li>Majschips</li>
+    </ol>
+    <a href="https:google.com" target="_blank"> Mit første link </a>
+  </body>
+</html>

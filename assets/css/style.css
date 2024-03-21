@@ -1,0 +1,49 @@
+body {
+  background-color: lavender;
+}
+nav {
+  background-color: rgb(240, 204, 200);
+  padding: 50px 25px;
+}
+
+nav a {
+  margin-right: 10px;
+}
+
+#hero {
+  padding: 100px 25px;
+  background-image: url("https://picsum.photos/1920/1080");
+  background-size: cover;
+  background-position: 80%;
+}
+
+h1 span {
+  color: rgb(223, 160, 223);
+}
+h1,
+h3,
+h5 {
+  color: lightpink;
+  font-size: 50px;
+}
+.second-color {
+  color: white;
+  font-size: 50px;
+}
+img {
+  border: 5px dotted violet;
+  border-radius: 50%;
+}
+#last-paragraph {
+  color: white;
+}
+a {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  text-transform: lowercase;
+}
+a:hover {
+  color: palevioletred;
+  transition-duration: 0.5s;
+}
